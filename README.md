@@ -64,5 +64,118 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Blue Cheetah is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://www.hiive.com/securities/blue-cheetah-stock
+Blue Cheetah develops analog and mixed-signal semiconductor intellectual property for connecting chiplets. Acquired by Tenstorrent, its BlueLynx technology provides customizable physical and link interfaces for chip designs using different fabrication processes and packaging configurations. Founded in 2018, the company is based in Sunnyvale, California and focuses on AI accelerator IP and open hardware solutions.
+
+**Areas:** AI Hardware · Compute · Servers · Workstations
+
+## Blue Cheetah on APIs.io
+
+Everything profiled for Blue Cheetah is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/blue-cheetah/](https://apis.io/providers/blue-cheetah/)** — or go straight to one of the APIs or properties below.
+
+### APIs (8)
+
+- [Blue Cheetah API](https://apis.io/apis/blue-cheetah/blue-cheetah-api-2/) — API documentation for Blue Cheetah provided via Tenstorrent docs site.
+- [Blue Cheetah Blue Cheetah API](https://apis.io/apis/blue-cheetah/blue-cheetah-blue-cheetah-api-api/) — The Blue Cheetah API API from Blue Cheetah — 1 operation(s) for blue cheetah api.
+- [Blue Cheetah Chat API](https://apis.io/apis/blue-cheetah/blue-cheetah-chat-api/) — The Chat API from Blue Cheetah — 1 operation(s) for chat.
+- [Blue Cheetah Completions API](https://apis.io/apis/blue-cheetah/blue-cheetah-completions-api/) — The Completions API from Blue Cheetah — 1 operation(s) for completions.
+- [Blue Cheetah Health API](https://apis.io/apis/blue-cheetah/blue-cheetah-health-api/) — The Health API from Blue Cheetah — 1 operation(s) for health.
+- [Blue Cheetah Install API](https://apis.io/apis/blue-cheetah/blue-cheetah-install-api/) — The Install API from Blue Cheetah — 1 operation(s) for install.
+- [Blue Cheetah Metrics API](https://apis.io/apis/blue-cheetah/blue-cheetah-metrics-api/) — The Metrics API from Blue Cheetah — 1 operation(s) for metrics.
+- [Blue Cheetah Tt Pkg Key API](https://apis.io/apis/blue-cheetah/blue-cheetah-tt-pkg-key-api/) — The Tt Pkg Key API from Blue Cheetah — 1 operation(s) for tt pkg key.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (2)
+
+The data models the API reads and writes.
+
+- [PostChatRequest](https://apis.io/schemas/blue-cheetah/blue-cheetah-post-chat-request/)
+- [PostChatResponse](https://apis.io/schemas/blue-cheetah/blue-cheetah-post-chat-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Blue Cheetah Context](https://apis.io/jsonld/blue-cheetah/blue-cheetah-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Blue Cheetah API Rules](https://apis.io/rules/blue-cheetah/blue-cheetah-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Blue Cheetah Authentication](https://apis.io/security/blue-cheetah/blue-cheetah-authentication/)
+- [Blue Cheetah Domain Security](https://apis.io/security/blue-cheetah/blue-cheetah-domain-security/)
+- [Blue Cheetah Vulnerability Disclosure](https://apis.io/security/blue-cheetah/blue-cheetah-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://tenstorrent.com/)
+- [Documentation](https://docs.tenstorrent.com)
+- [Getting started](https://docs.tenstorrent.com/getting-started/README.html)
+- [Support](https://tenstorrent.com/support)
+- [Security](https://clarity.com/vdp)
+- [Terms of service](https://tenstorrent.com/terms)
+- [Privacy policy](https://tenstorrent.com/privacy)
+- [GitHub](https://github.com/tenstorrent)
+
+## API Evangelist rating
+
+**Kin Score 29.7** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 62.5 |
+| Contract quality | 21.5 |
+| Contract governance | 22.0 |
+| Operational transparency | 15.8 |
+| Developer ergonomics | 38.1 |
+| Access clarity | 21.1 |
+
+**Agent readiness 18.0** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 30.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/blue-cheetah/](https://apis.io/providers/blue-cheetah/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Blue Cheetah: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/blue-cheetah/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
